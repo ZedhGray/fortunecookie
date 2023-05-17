@@ -1,0 +1,22 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+}
