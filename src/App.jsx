@@ -4,7 +4,8 @@ import Quote from './components/Quote'
 import quotes from './utils/quotes.json'
 import getRandomArray from './utils/getRandomArray'
 import { useState } from 'react'
-const imgs = [1, 2, 3, 4, 5, 6]
+import ParticlesBackground from './components/ParticlesBackground'
+const imgs = [1, 2, 3]
 
 function App() {
   const [quoteRandom, setQuoteRandom] = useState(getRandomArray(quotes))
@@ -15,6 +16,7 @@ function App() {
   }
   return (
     <div style={appStyle} className="App">
+      <ParticlesBackground />
       <h1 className="App_title">Fortune Cookie</h1>
       <Button setQuoteRandom={setQuoteRandom} setNumberImg={setNumberImg} />
       <Quote quoteRandom={quoteRandom} />
