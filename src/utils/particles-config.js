@@ -20,14 +20,13 @@ const particlesConfid = {
         nb_sides: 5,
       },
       image: {
-        background-image: url(./background/cerezo.png),
-        // src: 'https://illustoon.com/photo/2674.png',
+        src: 'https://illustoon.com/photo/2674.png',
         width: 100,
         height: 100,
       },
     },
     opacity: {
-      value: 0.8,
+      value: .8,
       random: true,
       anim: {
         enable: false,
