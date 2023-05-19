@@ -17,7 +17,9 @@ function App() {
   return (
     <div style={appStyle} className="App">
       <ParticlesBackground />
-      <h1 className="App_title">Fortune Cookie</h1>
+      <h1 className="App_title">
+        <img src="backgrounds/H1.png" alt="" />
+      </h1>
       <Button setQuoteRandom={setQuoteRandom} setNumberImg={setNumberImg} />
       <Quote quoteRandom={quoteRandom} />
     </div>
