@@ -1,14 +1,14 @@
 const particlesConfid = {
   particles: {
     number: {
-      value: 100,
+      value: 200,
       density: {
         enable: true,
         value_area: 800,
       },
     },
     color: {
-      value: 'transparent',
+      value: '#ffffff',
     },
     shape: {
       type: 'image',
@@ -20,13 +20,13 @@ const particlesConfid = {
         nb_sides: 5,
       },
       image: {
-        src: 'https://illustoon.com/photo/2674.png',
+        src: '/backgrounds/cerezo.png',
         width: 100,
         height: 100,
       },
     },
     opacity: {
-      value: .8,
+      value: 0.8,
       random: true,
       anim: {
         enable: false,
@@ -89,7 +89,7 @@ const particlesConfid = {
       },
       bubble: {
         distance: 400,
-        size: 4,
+        size: 20,
         duration: 0.3,
         opacity: 1,
         speed: 3,
