@@ -44,3 +44,19 @@
   border-radius: 0.4em;
   font-size: 20px;
 }
+
+@media screen and (max-width: 480px) {
+  #encabezado {
+    height: auto;
+  }
+  #contenido {
+    width: auto;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  #barra_lateral {
+    display: none;
+  }
+}
